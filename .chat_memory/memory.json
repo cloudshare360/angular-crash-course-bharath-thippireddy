@@ -1,0 +1,16 @@
+{
+  "created": "2025-10-21T00:00:00Z",
+  "sessions": [
+    {
+      "date": "2025-10-21",
+      "summary": "Reformatted chapter 1 README to concise bullets and added detailed-notes.md; committed and pushed changes.",
+      "files_changed": [
+        "Couser_Notes/Sec01-Introduction/ch-01/readme.md",
+        "Couser_Notes/Sec01-Introduction/ch-01/detailed-notes.md"
+      ],
+      "commit": {
+        "message": "ch01: add summary table and detailed notes"
+      }
+    }
+  ]
+}
