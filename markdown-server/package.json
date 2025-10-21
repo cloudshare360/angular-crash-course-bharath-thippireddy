@@ -1,0 +1,14 @@
+{
+  "name": "markdown-server",
+  "version": "1.0.0",
+  "description": "Simple Markdown server to browse Couser_Notes by rendering markdown to HTML",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "marked": "^5.0.2",
+    "sanitize-html": "^2.9.0"
+  }
+}
