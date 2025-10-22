@@ -1,0 +1,19 @@
+# Markdown server temporary files
+markdown-server/*.lock
+markdown-server/*.log
+markdown-server/*.pid
+
+# Node modules
+node_modules/
+
+# Angular
+dist/
+.angular/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

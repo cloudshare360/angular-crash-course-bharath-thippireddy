@@ -46,6 +46,6 @@ app.get('/view/:file(*)', (req, res) => {
 
 app.use('/static', express.static(NOTES_DIR));
 
-app.listen(PORT, () => {
-  console.log(`Markdown server listening on http://localhost:${PORT}/`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Markdown server listening on http://0.0.0.0:${PORT}/`);
 });
