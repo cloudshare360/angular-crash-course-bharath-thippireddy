@@ -1,5 +1,7 @@
 # Chapter 3 — Summary (Quick Notes)
 
+> 📖 **Want more details?** [Click here to view the detailed notes](detailed-notes.md)
+
 Quick bullet summary:
 
 - What is AngularJS and why use it.
