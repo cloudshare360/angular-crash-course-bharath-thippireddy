@@ -63,8 +63,8 @@
         }
         table td, table th {
             border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
+            padding: 20px;
+            vertical-align: top;
         }
         table th {
             background-color: #f8f9fa;
@@ -72,6 +72,17 @@
         }
         table tr:nth-child(even) {
             background-color: #f8f9fa;
+        }
+        table td:first-child {
+            width: 60%;
+        }
+        table td:last-child {
+            width: 40%;
+            text-align: center;
+        }
+        table td img {
+            max-width: 100%;
+            height: auto;
         }
         h1 {
             color: #333;
