@@ -1,5 +1,7 @@
 # Chapter 1 — Summary (Quick Notes)
 
+> 📖 **Want more details?** [Click here to view the detailed notes](detailed-notes.md)
+
 Quick bullet summary:
 
 - Introduction to Single Page Applications (SPA) and why Angular is popular for SPAs.
@@ -24,3 +26,7 @@ Table: topic summary (left) and corresponding image (right)
 | Build RESTful API with Node/Express | ![API image](image-5.png) |
 | Routing, Pipes, Forms, Custom Directives | ![Forms image](image-6.png) |
 | Final project: Flight Reservation & CheckIn (Java backend + 2 Angular apps) | ![Final project image](image-7.png) |
+
+---
+
+📚 **[View Detailed Notes →](detailed-notes.md)**

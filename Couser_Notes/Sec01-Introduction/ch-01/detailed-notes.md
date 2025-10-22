@@ -1,5 +1,7 @@
 # Chapter 1 — Detailed Notes
 
+> 📋 **Want a quick summary?** [Click here to view the concise version](readme.md)
+
 This document contains expanded, formatted notes for Chapter 1. Each row pairs a detailed paragraph on the left with the corresponding image on the right.
 
 | Detailed notes | Image |
@@ -28,3 +30,7 @@ Routing enables navigation between views with route parameters, lazy loading, an
 | **Final Project: Flight Reservation & CheckIn**
 
 The capstone integrates all course concepts: a Java Spring backend exposes RESTful endpoints, while two Angular microfrontends (Flight Reservation and Flight CheckIn) consume those APIs. The Reservation app handles booking flows; the CheckIn app lets passengers check in for flights. This demonstrates multi-project architecture, API reuse, and real-world integration patterns. | ![Final project image](image-7.png) |
+
+---
+
+📋 **[View Quick Summary →](readme.md)**

@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Watch Ports",
+      "type": "shell",
+      "command": "watch -n 2 'gitpod environment port list'",
+      "isBackground": true,
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "List Ports (Once)",
+      "type": "shell",
+      "command": "gitpod environment port list",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Show Listening Ports",
+      "type": "shell",
+      "command": "ss -tlnp | grep LISTEN",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
